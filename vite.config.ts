@@ -30,7 +30,7 @@ function figmaAssetPlugin(): Plugin {
 }
 
 export default defineConfig({
-  base: '/merge-myplan/',
+  base: '/merge-myplan-main/',
   plugins: [
     figmaAssetPlugin(),
     // The React and Tailwind plugins are both required for Make, even if
